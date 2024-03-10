@@ -1,0 +1,23 @@
+B1: vào thư mục muốn chứa file cần làm
+chuột phải vào Open Git Bash 
+
+------ cửa sổ Git Bash xuất hiên---------
+
+b2: lên github.com copy link https và vào GIT bash
+nhập: git clone + link vừa copy
+
+----- tắt git bash, vào thư mục rồi làm việc ----------
+
+B3: thao tác trong thư mục
+B4: kiểm tra bằng câu lệnh: git status
+** file màu đỏ có nghĩa là chưa add và repo trong máy
+** file màu xanh có nghĩa là đã add
+
+B5: git add .
+(add tất cả các file trong thư mục đã thao tác)
+
+b6: git commit -m"   "
+(xác nhận đã đẩy lên repo trong máy)
+b7: git push origin main/master
+
+------ check lại trên github.com ------------
