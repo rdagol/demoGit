@@ -1,0 +1,8 @@
+ private void tinhtong() {
+       int so1= Integer.parseInt(txt1.getText());
+          int so2= Integer.parseInt(txt2.getText());
+         int tong =so1+so2;
+       txtsum.setText(String.valueOf(tong));
+        
+        
+          }
